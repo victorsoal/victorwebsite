@@ -1,0 +1,67 @@
+h1 {
+    color: green;
+    text-decoration: underline;
+   }
+   p {ont-size: 25px;
+    font-family: 'Trebuchet MS', sans-serif;
+    <h1 style="color: green;">Hello world!</h1>
+    <p style="font-size: 25px; font-family: 'Trebuchet MS';">I ♥ CSS</p>
+
+   }
+    table{
+        width: 400px;
+        
+    }
+    th{
+        text-align: left;
+    }
+    table, th, td {
+        border: 1px solid;
+        border-collapse: collapse;
+    }
+    .subscribe-button{
+        background-color: rgba(223, 12, 12, 0.911);
+        color: white;
+        border: none;
+        height: 35px;
+        width: 110px;
+        border-radius: 2px;
+        cursor: pointer;
+    }
+    .subscribe-button:hover{
+        opacity:0.7 ;
+    }
+    .subscribe-button:active{
+        opacity: 0.6;
+    }
+
+    .Join-button{
+        background-color: white;
+        border-color: rgb(17, 17, 196);
+        border-style: solid;
+        border-width: 1px;
+        color: rgb(26, 26, 184);
+        height: 36px;
+        width: 62px;
+        border-radius: 2px;
+        cursor: pointer;
+    }
+    .Join-button:hover{
+        color: rgb(17, 17, 196);
+        background-color: white;
+        border-style: solid;
+        cursor: pointer;
+        
+    }
+
+    .tweet-button{
+        background-color: rgb(24, 135, 204);
+        color: white;
+        border: none;
+        height: 34px;
+        width: 67px;
+        border-radius: 17px;
+        font-weight: bold;
+        font-size: 15px;
+        cursor: pointer;
+    }
